@@ -1,0 +1,413 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  text-transform: capitalize;
+}
+
+.container {
+  width: 1400px;
+  max-width: 100%;
+  margin: auto;
+  height: 100vh;
+}
+.container .col4 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 300px;
+}
+.container .col4 .col4-pir {
+  width: 25%;
+  background-color: blue;
+  align-items: center;
+  text-align: center;
+  padding: 20px 15px;
+}
+.container .col4 .col4-pir a {
+  color: aliceblue;
+  font-size: 40px;
+}
+.container .col4 .col4-pir h1 {
+  font-size: 30px;
+  padding: 5px 0;
+}
+.container .col4 .col4-pir p {
+  font-size: 20px;
+  padding: 5px 0;
+}
+.container .col4 .col4-meo {
+  width: 25%;
+  background-color: rgb(42, 42, 235);
+  align-items: center;
+  text-align: center;
+  padding: 20px 15px;
+}
+.container .col4 .col4-meo a {
+  color: aliceblue;
+  font-size: 40px;
+}
+.container .col4 .col4-meo h1 {
+  font-size: 30px;
+  padding: 5px 0;
+}
+.container .col4 .col4-meo p {
+  font-size: 20px;
+  padding: 5px 0;
+}
+.container .col4 .col4-mes {
+  width: 25%;
+  background-color: rgb(69, 69, 230);
+  align-items: center;
+  text-align: center;
+  padding: 20px 15px;
+}
+.container .col4 .col4-mes a {
+  color: aliceblue;
+  font-size: 40px;
+}
+.container .col4 .col4-mes h1 {
+  font-size: 30px;
+  padding: 5px 0;
+}
+.container .col4 .col4-mes p {
+  font-size: 20px;
+  padding: 5px 0;
+}
+.container .col4 .col4-otx {
+  width: 25%;
+  background-color: rgb(94, 94, 224);
+  align-items: center;
+  text-align: center;
+  padding: 20px 15px;
+}
+.container .col4 .col4-otx a {
+  color: aliceblue;
+  font-size: 40px;
+}
+.container .col4 .col4-otx h1 {
+  font-size: 30px;
+  padding: 5px 0;
+}
+.container .col4 .col4-otx p {
+  font-size: 20px;
+  padding: 5px 0;
+}
+
+@media only screen and (max-width: 1250px) and (min-width: 930px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+  }
+
+  body {
+    background-color: rgb(255, 255, 255);
+    text-transform: capitalize;
+  }
+
+  .container {
+    width: 1400px;
+    max-width: 100%;
+    margin: auto;
+    height: 100vh;
+  }
+  .container .col4 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 300px;
+  }
+  .container .col4 .col4-pir {
+    width: 25%;
+    background-color: blue;
+    align-items: center;
+    text-align: center;
+    padding: 20px 15px;
+  }
+  .container .col4 .col4-pir a {
+    color: aliceblue;
+    font-size: 40px;
+  }
+  .container .col4 .col4-pir h1 {
+    font-size: 30px;
+    padding: 5px 0;
+  }
+  .container .col4 .col4-pir p {
+    font-size: 20px;
+    padding: 5px 0;
+  }
+  .container .col4 .col4-meo {
+    width: 25%;
+    background-color: rgb(42, 42, 235);
+    align-items: center;
+    text-align: center;
+    padding: 20px 15px;
+  }
+  .container .col4 .col4-meo a {
+    color: aliceblue;
+    font-size: 40px;
+  }
+  .container .col4 .col4-meo h1 {
+    font-size: 30px;
+    padding: 5px 0;
+  }
+  .container .col4 .col4-meo p {
+    font-size: 20px;
+    padding: 5px 0;
+  }
+  .container .col4 .col4-mes {
+    width: 25%;
+    background-color: rgb(69, 69, 230);
+    align-items: center;
+    text-align: center;
+    padding: 20px 15px;
+  }
+  .container .col4 .col4-mes a {
+    color: aliceblue;
+    font-size: 40px;
+  }
+  .container .col4 .col4-mes h1 {
+    font-size: 30px;
+    padding: 5px 0;
+  }
+  .container .col4 .col4-mes p {
+    font-size: 20px;
+    padding: 5px 0;
+  }
+  .container .col4 .col4-otx {
+    width: 25%;
+    background-color: rgb(94, 94, 224);
+    align-items: center;
+    text-align: center;
+    padding: 20px 15px;
+  }
+  .container .col4 .col4-otx a {
+    color: aliceblue;
+    font-size: 40px;
+  }
+  .container .col4 .col4-otx h1 {
+    font-size: 30px;
+    padding: 5px 0;
+  }
+  .container .col4 .col4-otx p {
+    font-size: 20px;
+    padding: 5px 0;
+  }
+}
+@media only screen and (max-width: 930px) and (min-width: 565px) {
+  @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+  }
+
+  body {
+    background-color: rgb(255, 255, 255);
+    text-transform: capitalize;
+  }
+
+  .container {
+    width: 1400px;
+    max-width: 100%;
+    margin: auto;
+    height: 100vh;
+  }
+  .container .col4 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 300px;
+    margin: 10px 10px;
+  }
+  .container .col4 .col4-pir {
+    width: 50%;
+    background-color: blue;
+    align-items: center;
+    text-align: center;
+    padding: 20px 15px;
+  }
+  .container .col4 .col4-pir a {
+    color: aliceblue;
+    font-size: 40px;
+  }
+  .container .col4 .col4-pir h1 {
+    font-size: 30px;
+    padding: 5px 0;
+  }
+  .container .col4 .col4-pir p {
+    font-size: 20px;
+    padding: 5px 0;
+  }
+  .container .col4 .col4-meo {
+    width: 50%;
+    background-color: rgb(42, 42, 235);
+    align-items: center;
+    text-align: center;
+    padding: 20px 15px;
+  }
+  .container .col4 .col4-meo a {
+    color: aliceblue;
+    font-size: 40px;
+  }
+  .container .col4 .col4-meo h1 {
+    font-size: 30px;
+    padding: 5px 0;
+  }
+  .container .col4 .col4-meo p {
+    font-size: 20px;
+    padding: 5px 0;
+  }
+  .container .col4 .col4-mes {
+    width: 50%;
+    background-color: rgb(69, 69, 230);
+    align-items: center;
+    text-align: center;
+    padding: 20px 15px;
+    margin: 10px 0;
+  }
+  .container .col4 .col4-mes a {
+    color: aliceblue;
+    font-size: 40px;
+  }
+  .container .col4 .col4-mes h1 {
+    font-size: 30px;
+    padding: 5px 0;
+  }
+  .container .col4 .col4-mes p {
+    font-size: 20px;
+    padding: 5px 0;
+  }
+  .container .col4 .col4-otx {
+    width: 50%;
+    background-color: rgb(94, 94, 224);
+    align-items: center;
+    text-align: center;
+    padding: 20px 15px;
+    margin: 10px 0;
+  }
+  .container .col4 .col4-otx a {
+    color: aliceblue;
+    font-size: 40px;
+  }
+  .container .col4 .col4-otx h1 {
+    font-size: 30px;
+    padding: 5px 0;
+  }
+  .container .col4 .col4-otx p {
+    font-size: 20px;
+    padding: 5px 0;
+  }
+}
+@media (max-width: 565px) {
+  @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+  }
+
+  body {
+    background-color: rgb(255, 255, 255);
+    text-transform: capitalize;
+  }
+
+  .container {
+    width: 1400px;
+    max-width: 100%;
+    margin: auto;
+    height: 100vh;
+  }
+  .container .col4 {
+    margin-top: 300px;
+  }
+  .container .col4 .col4-pir {
+    width: 100%;
+    background-color: blue;
+    align-items: center;
+    text-align: center;
+    padding: 20px 15px;
+    margin: 10px 10px;
+  }
+  .container .col4 .col4-pir a {
+    color: aliceblue;
+    font-size: 40px;
+  }
+  .container .col4 .col4-pir h1 {
+    font-size: 30px;
+    padding: 5px 0;
+  }
+  .container .col4 .col4-pir p {
+    font-size: 20px;
+    padding: 5px 0;
+  }
+  .container .col4 .col4-meo {
+    width: 100%;
+    background-color: rgb(42, 42, 235);
+    align-items: center;
+    text-align: center;
+    padding: 20px 15px;
+    margin: 10px 10px;
+  }
+  .container .col4 .col4-meo a {
+    color: aliceblue;
+    font-size: 40px;
+  }
+  .container .col4 .col4-meo h1 {
+    font-size: 30px;
+    padding: 5px 0;
+  }
+  .container .col4 .col4-meo p {
+    font-size: 20px;
+    padding: 5px 0;
+  }
+  .container .col4 .col4-mes {
+    width: 100%;
+    background-color: rgb(69, 69, 230);
+    align-items: center;
+    text-align: center;
+    padding: 20px 15px;
+    margin: 10px 10px;
+  }
+  .container .col4 .col4-mes a {
+    color: aliceblue;
+    font-size: 40px;
+  }
+  .container .col4 .col4-mes h1 {
+    font-size: 30px;
+    padding: 5px 0;
+  }
+  .container .col4 .col4-mes p {
+    font-size: 20px;
+    padding: 5px 0;
+  }
+  .container .col4 .col4-otx {
+    width: 100%;
+    background-color: rgb(94, 94, 224);
+    align-items: center;
+    text-align: center;
+    padding: 20px 15px;
+    margin: 10px 10px;
+  }
+  .container .col4 .col4-otx a {
+    color: aliceblue;
+    font-size: 40px;
+  }
+  .container .col4 .col4-otx h1 {
+    font-size: 30px;
+    padding: 5px 0;
+  }
+  .container .col4 .col4-otx p {
+    font-size: 20px;
+    padding: 5px 0;
+  }
+}
+
+/*# sourceMappingURL=app.css.map */
